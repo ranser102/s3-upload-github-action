@@ -1,8 +1,9 @@
-# s3-upload-github-action
+# S3 Upload multiple files or directories - Github Action
 
-S3 uploader for Github Actions.
+Github Action S3 Uploader of multiple files or directories.
 
-You can upload files or directories to any S3 compatible cloud buckets.
+***Note:*** Kudos to the action creator [koraykoska](https://github.com/koraykoska/s3-upload-github-action) and to the enhancment contributed by [ZabasJC](https://github.com/ZabasJC/s3-upload-github-action).  
+(I added minor modifications).
 
 ## Usage
 
@@ -30,7 +31,7 @@ jobs:
           S3_SECRET_ACCESS_KEY: ${{ secrets.S3_SECRET_ACCESS_KEY }}
 ```
 
-# Bucket ACL policy
+## Bucket ACL policy
 
 ```JSON
 {
