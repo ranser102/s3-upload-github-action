@@ -1,6 +1,6 @@
-name: "S3 Upload"
-description: "Upload files and directories to S3 compatible cloud buckets"
-author: "Koray Koska <koray@koska.at>"
+name: "S3 Upload multiple files or directories"
+description: "Upload files and directories to S3 compatible cloud buckets. Action created by Koray Koska (koraykoska , koray@koska.at) and enhanced by ZabasJC and ranser102"
+author: "Eran Sery - ranser102"
 runs:
   using: docker
   image: Dockerfile
