@@ -22,7 +22,7 @@ jobs:
       - uses: actions/checkout@master
 
       - name: Upload file to bucket
-        uses: koraykoska/s3-upload-github-action@master
+        uses: ranser102/s3-upload-github-action@main
         env:
           FILE: ./releases/ # can handle a list of files divided by space
           S3_ENDPOINT: 'ams3.digitaloceanspaces.com'
