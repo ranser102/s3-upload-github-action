@@ -5,5 +5,5 @@ runs:
   using: docker
   image: Dockerfile
 branding:
-  icon: message-square
-  color: gray-dark
+  icon: box
+  color: red
